@@ -1,12 +1,12 @@
 let numero = (valor) => {
-  if (valor & (2 == 0)) {
-    return console.log("es par");
+  if (valor % 2 == 0) {
+    return "es par";
   } else {
-    return console.log("es impar");
+    return "es impar";
   }
 };
 
-let valor = 8;
+let valor = 7;
 
 let resultado = numero(valor);
 

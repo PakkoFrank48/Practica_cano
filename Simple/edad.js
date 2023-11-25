@@ -1,8 +1,8 @@
 let edad = (primerValor, segundoValor) => {
   if (primerValor > segundoValor) {
-    return console.log("Es mayor de edad");
+    return "Es mayor de edad";
   } else {
-    return console.log("Es menor de edad");
+    return "Es menor de edad";
   }
 };
 
